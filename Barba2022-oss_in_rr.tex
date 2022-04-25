@@ -1,0 +1,115 @@
+\documentclass{statement}
+
+% Author:  Lorena Barba
+
+\usepackage{palatino}  
+\usepackage[T1]{fontenc}
+%\setromanfont[Mapping=tex-text,
+%                 SmallCapsFont={Palatino},
+%                 SmallCapsFeatures={Scale=0.85}]{Palatino}
+%\setsansfont[Mapping=tex-text,Scale=0.9]{Optima} 
+%\setmonofont[Mapping=tex-text,Scale=0.85]{Monaco}
+%\newfontfamily\titfont[Mapping=tex-text]{Source Sans Pro ExtraLight}
+%\newfontfamily\secfont[Mapping=tex-text]{Source Sans Pro Bold}
+%\newfontfamily\subsecfont[Mapping=tex-text]{Source Sans Pro}
+%\renewcommand{\captionlabelfont}{\bf\sffamily}
+\lhead{}
+\chead{}
+\rhead{ Terminologies for Reproducible Research}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+%\usepackage[T1]{fontenc}
+%\usepackage[sc]{mathpazo}   % option clash with wrapfig !!
+
+% Define the color to use in links:
+\definecolor{linkcol}{rgb}{0.278,0.541,0.459}%
+
+\definecolor{sectcol}{rgb}{0.63,0.16,0.16}
+\definecolor{palevioletred4}{rgb}{0.545,0.278,0.365}
+\definecolor{gray40}{rgb}{0.40,0.40,0.40}
+\definecolor{gray26}{rgb}{0.26,0.26,0.26}
+\definecolor{olive}{rgb}{0.5,0.5,0.0}
+\definecolor{gray78}{cmyk}{0,0,0,0.22}
+
+
+
+\usepackage[
+    pdftitle={Defining the role of open source software in research reproducibility},
+    pdfauthor={Lorena Barba},
+    pdfpagemode={UseOutlines},
+    pdfpagelayout={TwoColumnRight},
+    bookmarks, bookmarksopen,bookmarksnumbered={True},
+    pdfstartview={FitH},
+    breaklinks=true,
+    colorlinks, linkcolor={linkcol},citecolor={linkcol},urlcolor={linkcol}
+    ]{hyperref}
+
+%% Define a new style for the url package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\footnotesize\ttfamily}}}
+\makeatother
+%% Now actually use the newly defined style.
+\urlstyle{leo}
+
+% this handles hanging indents for publications
+\def\rrr#1\\{\par
+\medskip\hbox{\vbox{\parindent=2em\hsize=6.12in
+\hangindent=4em\hangafter=1#1}}}
+
+\def\baselinestretch{1}
+\setlength{\parindent}{0mm} \setlength{\parskip}{0.8em}
+
+\newlength{\up}
+\setlength{\up}{-4mm}
+
+\newlength{\hup}
+\setlength{\hup}{-2mm}
+
+%\sectionfont{\secfont \color{palevioletred4}\vspace{-2mm}}
+%\subsectionfont{\secfont\vspace{-4mm}}
+%\subsubsectionfont{\normalsize\mdseries\itshape\vspace{-4mm}} %\itshape
+%\paragraphfont{\bfseries}
+
+%S\newfontfamily\notefont[Mapping=tex-text,Scale=1]{Optima}
+
+% -----------------------------------------------------------------------------------------------------------
+\begin{document}
+% -----------------------------------------------------------------------------------------------------------
+
+% reset page numbering to 1
+\pagenumbering{arabic}
+\renewcommand{\thepage} {\arabic{page}}
+
+\thispagestyle{empty}
+
+{ \Huge Defining the role of open source software in research reproducibility} 
+\medskip
+
+%{\fontspec[Mapping=tex-text,Scale=0.8]{Source Sans Pro} Lorena A. Barba, the George Washington University, Washington D.C. 
+Lorena A. Barba, the George Washington University, Washington D.C. 
+
+2022
+
+
+
+\vspace{1cm}
+
+\section*{Introduction}
+\vspace{\up}
+
+
+% ---------------------------------------------------------- END 
+
+
+% ----------------------------------------------  REFERENCES 
+{\small
+%\bibliography{}
+}
+
+
+
+%%%%%%%%
+\end{document}
