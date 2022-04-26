@@ -1,0 +1,69 @@
+\begin{thebibliography}{12}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Brown et~al.(2021)Brown, Vahi, Taufer, Welch, and Deelman]{brown2021}
+Brown, D.~A., K.~Vahi, M.~Taufer, V.~Welch, and E.~Deelman, 2021: Reproducing
+  {GW150914}: The first observation of gravitational waves from a binary black
+  hole merger. {\em Computing in Science \& Engineering\/}, {\bf 23(2)},
+  73--82,
+  \href{https://doi.org/10.1109/MCSE.2021.3059232}{doi:10.1109/MCSE.2021.3059232}.
+
+\bibitem[Coleman(2012)]{coleman2012}
+Coleman, E.~G., 2012: {\em Coding freedom\/}. Princeton University Press,
+  \href{https://doi.org/10.1515/9781400845293}{doi:10.1515/9781400845293}.
+
+\bibitem[Donoho et~al.(2009)Donoho, Maleki, Rahman, Shahram, and
+  Stodden]{donoho2009}
+Donoho, D.~L., A.~Maleki, I.~U. Rahman, M.~Shahram, and V.~Stodden, 2009:
+  Reproducible research in computational harmonic analysis. {\em Computing in
+  Science \& Engineering\/}, {\bf 11(1)}, 8--18,
+  \href{https://doi.org/10.1109/MCSE.2009.15}{doi:10.1109/MCSE.2009.15}.
+
+\bibitem[Franklin(1989)]{franklin1989}
+Franklin, A., 1989: {\em The neglect of experiment\/}. Cambridge University
+  Press, ISBN 0-521-37965-2.
+
+\bibitem[Leek and Peng(2015)]{leek-peng2015}
+Leek, J.~T. and R.~D. Peng, 2015: Opinion: Reproducible research can still be
+  wrong: Adopting a prevention approach. {\em Proceedings of the National
+  Academy of Sciences\/}, {\bf 112(6)}, 1645--1646,
+  \href{https://doi.org/10.1073/pnas.1421412111}{doi:10.1073/pnas.1421412111}.
+
+\bibitem[LeVeque and Mitchell(2012)]{leveque2012}
+LeVeque, R.~J. and V.~Mitchell, Ian M .and~Stodden, 2012: Reproducible research
+  for scientific computing: Tools and strategies for changing the culture. {\em
+  Computing in Science \& Engineering\/}, {\bf 14(4)}, 13--17,
+  \href{https://doi.ieeecomputersociety.org/10.1109/MCSE.2012.38}{doi:10.1109/MCSE.2012.38}.
+
+\bibitem[Morin et~al.(2012)Morin, Urban, and Sliz]{morin2012}
+Morin, A., J.~Urban, and P.~Sliz, 2012: A quick guide to software licensing for
+  the scientist-programmer. {\em PLOS Computational Biology\/}, {\bf 8(7)},
+  e1002598, \href{https://doi.org/b5hp}{doi:10/b5hp}.
+
+\bibitem[{National Academies of Sciences, Engineering, and
+  Medicine}(2019)]{nasem_2019}
+{National Academies of Sciences, Engineering, and Medicine}, 2019: {\em
+  Reproducibility and {Replicability} in {Science}\/}. National Academies
+  Press, Washington, D.C., ISBN 978-0-309-48616-3,
+  \href{https://doi.org/c5jp}{doi:c5jp}.
+
+\bibitem[Perkel(2021)]{perkel2001}
+Perkel, J., 2021: How to make your research reproducible. \emph{Nature} Career
+  Column,
+  \href{https://doi.org/10.1038/d41586-021-02887-8}{doi:10.1038/d41586-021-02887-8}.
+
+\bibitem[Peterson(2008)]{peterson2008}
+Peterson, C., 2008: How {}i coined the term `open source'. Post at
+  Opensource.com,
+  \url{https://opensource.com/article/18/2/coining-term-open-source-software}.
+
+\bibitem[Solomon and Flores(2001)]{solomon-flores2003}
+Solomon, R.~C. and F.~Flores, 2001: {\em Building trust: In business, politics,
+  relationships, and life\/}. Oxford University Press, ISBN 0-19-512685-8.
+
+\bibitem[Winograd and Flores(1986)]{winograd-flores1986}
+Winograd, T. and F.~Flores, 1986: {\em Understanding computers and cognition: A
+  new foundation for design\/}. Ablex Publishing Corporation, ISBN
+  0-89391-050-3.
+
+\end{thebibliography}

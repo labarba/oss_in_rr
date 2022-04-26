@@ -49,7 +49,7 @@
 %% Define a new style for the url package that will use a smaller font.
 \makeatletter
 \def\url@leostyle{%
-  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\footnotesize\ttfamily}}}
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\footnotesize\sffamily}}}
 \makeatother
 %% Now actually use the newly defined style.
 \urlstyle{leo}
@@ -91,7 +91,7 @@
 %{\fontspec[Mapping=tex-text,Scale=0.8]{Source Sans Pro} Lorena A. Barba, the George Washington University, Washington D.C. 
 Lorena A. Barba, the George Washington University, Washington D.C. 
 
-2022
+November 2021
 
 
 
@@ -112,7 +112,7 @@ Discussions in the scholarly community about reproducibility have intensified ov
 Sister magazine of the IEEE Computer Society, \emph{Computing in Science and Engineering}, ran special issues on this theme in Jan/Feb 2009 and in Jul/Aug 2012. 
 The guest editors of the latter highlighted that the extensive use of computation in the scientific endeavor has meaningfully changed the norms and standards of science-making. 
 Computing is now an everyday activity for every scientist, in some form or another, from running simple statistics on empirical data, to running massive simulations on leadership computing facilities. 
-The definitive, policy informing report of the National Academies of Science, Engineering, and Medicine [1] thus sharply focused its definition of \emph{reproducibility}: 
+The definitive, policy informing report of the \cite{nasem_2019} thus sharply focused its definition of \emph{reproducibility}: 
 ``obtaining consistent computational results using the same input data, computational steps, methods, and code, and conditions of analysis.'' 
 This definition indelibly links reproducibility with transparency, via the requirement that data and code associated with a research study be made available to other researchers. 
 It does not imply, however, that the code should be open source, just \emph{available}---this could possibly be under special permissions granted for the purpose of inspecting or reproducing the results. 
@@ -127,7 +127,7 @@ If we use simulations, for example, how do we show evidence that the results rep
 How do we come to trust the computational results? 
 It's interesting to note that questions like these were raised a few decades ago about \emph{experiments}. 
 You may think it is rather obvious that we should believe the results obtained from an experiment that is directly observable, yet in many cases (e.g., in particle physics) experiments are far from indisputable. 
-Franklin [2] wrote about the neglect of experimental physics from the treatment of philosophers of science, and discussed the many strategies that experimental scientists use to provide grounds for rational belief in experimental results. 
+\cite{franklin1989} wrote about the neglect of experimental physics from the treatment of philosophers of science, and discussed the many strategies that experimental scientists use to provide grounds for rational belief in experimental results. 
 For example: confidence in an instrument increases if we can use it to get results that are expected in a known situation. 
 Or we gain confidence in an experimental result if it can be replicated with a different instrument or apparatus. 
 
@@ -136,9 +136,9 @@ If they told the world that the chirp was caused by two black holes merging a bi
 To begin with, the collaboration used two facilities with the same apparatus, each costing hundreds of millions of dollars. 
 The team's activities even included so-called blind injections: when artificial signals are sent to various groups of researchers to make them analyze the data and exercise the scientific workflow, arriving at the conclusion that the signals are not from gravitational waves. 
 Every member of the collaboration is committed to relentless quest for unimpeachable evidence. 
-Notably, in their pursuance of trust, the collaboration founded the Gravitational Wave Open Science Center (https://www.gw-openscience.org/), hosting data, software, documents, and web tools produced by the effort. 
+Notably, in their pursuance of trust, the collaboration founded the Gravitational Wave Open Science Center,\footnote{\url{https://www.gw-openscience.org/}} hosting data, software, documents, and web tools produced by the effort. 
 The data and the multiple pieces of software are released under standard public licenses, usually Creative Commons Attribution (CC-BY4.0) for data and MIT or GPL licenses for code. 
-And recently, Brown et al. [3] used the open data and code to reproduce the computational analysis that established the statistical significance of the detection. 
+And recently, \cite{brown2021} used the open data and code to reproduce the computational analysis that established the statistical significance of the detection. 
 The authors also described several challenges they faced in the reproduction exercise, \emph{despite} the open availability of the original data and code. 
 Among other hurdles, the original publication had not documented the version of the code used in the analysis, and the script used to make the final figure in the paper was not archived and shared. 
 To finally succeed in reproducing the published result, the collaboration of one of the authors of the original paper, who had to resort to personal files, was needed. 
@@ -149,7 +149,7 @@ Even the most meticulous research team, with a broad commitment to open science,
 
 Researchers have been involved since the genesis of open-source software (OSS) about 50 years ago, and have been a driving force in OSS development ever since. 
 Unix at Bell Labs, the Berkeley Software Distribution, the Unix-compatible GNU system at MIT, and Linux by Linus Torvalds at University of Helsinki are all examples of researcher-led precursors for today's OSS ecosystem.  
-The term \emph{open source software} was introduced about 24 years ago [4] and its definition put in black and white soon after by the Open Source Initiative (OSI, https://opensource.org). 
+The term \emph{open source software} was introduced about 24 years ago \citep{peterson2008} and its definition put in black and white soon after by the Open Source Initiative (OSI).\footnote{\url{https://opensource.org}} 
 It stipulates satisfaction of ten criteria, including not just availability of the source code but also the attachment of a license to use, modify and redistribute it freely. 
 And herein lies one of the reigning misconceptions about open source software: simply sharing the source code in a hosting service, code repository or website is not enough---one must attach a standard public license approved by the OSI for the software to be called open source. 
 Like with any creative work, copyright is automatically attached to computer code when it is written, and thus any source code posted online must be assumed ``All Rights Reserved'' by the copyright holder, unless it includes a license. 
@@ -158,7 +158,7 @@ Open-source licenses are an invention of great impact, as an alternative to inte
 They allow people to coordinate their work freely, within the confines of copyright law, while making access and wide distribution their priority--this is fundamentally aligned with the norms of science, where we value academic freedom and wide dissemination of scientific findings. 
 The key benefit of OSI-approved licenses is that researchers do not need extensive legal training or consultants to navigate these issues: 
 the licenses are ``pre-packaged'' and ready to use. 
-A researcher needs to know the conditions of their employment contract (whether the copyright belongs to the author or the employer), and be familiar with some basic license terms, e.g., as presented by Morin et al. [5]. 
+A researcher needs to know the conditions of their employment contract (whether the copyright belongs to the author or the employer), and be familiar with some basic license terms, e.g., as presented by \cite{morin2012}. 
 With that information, they (or their employer) can choose one of the standard licenses for any particular software project. 
 Sometimes the choice may be tinged with a political position, for example, in the alternative between a copyleft or permissive license. 
 A \emph{copyleft} license requires that any derivative works be also under the license of the original---another word for this model is ``share-alike.'' 
@@ -168,7 +168,7 @@ Although this may be considered virtuous in some circles, we should recognize th
 A \emph{permissive} license gives more freedoms: the only restriction of use is usually that the original authors receive credit in any distribution of the software or any derivative works. 
 Even commercial uses, or incorporating the software into other proprietary (closed) works, is allowed. 
 Academic and research software benefits most from permissive licensing, enabling more impact and innovation. 
-Typical examples are the BSD License, the MIT License and the Apache License.[a]
+Typical examples are the BSD License, the MIT License and the Apache License.\footnote{In my research group, we now opt for the BSD 3-clause license, after using MIT license for several years. They are very similar, but a small difference in the wording about attribution made us switch. BSD 3-clause says: ``Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.'' MIT license says: ``The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.'' This language implies that a user could copy some of an MIT-licensed code (as long as the portion is deemed ``not substantial'') without attribution. In academia, we always prefer full attribution of any portions of copied works, and BSD 3-clause is more precise in this.}
 
 From the legal perspective, open source is a licensing model, as described above. 
 When applied to research software, it contributes to transparency of the computational workflow and availability for others to use/modify/redistribute the software, one of the requisites of reproducibility. 
@@ -193,12 +193,12 @@ These practices further contribute to maintaining and improving code quality and
 As for misuse of the code leading to wrong results, the scientific tradition of peer review has never quite eliminated erroneous results, but paired with transparency, the likelihood is that errors will be found sooner rather than later.
 
 Another reason cited by researchers for working with closed, in-house code, and declining to release it even when submitting a scientific manuscript for review, is the time and effort they associate with this requirement. 
-Leveque et al. (2012) in their CiSE editorial [6] cited a researcher survey: 78\% said they don't share code because of the extra work to clean up and document it. 
+\cite{leveque2012} in their CiSE editorial cited a researcher survey: 78\% said they don't share code because of the extra work to clean up and document it. 
 The question this raises is: can you trust the research results produced with such tangled and undocumented code? 
 Since the times of the Enlightenment in the seventeenth century, the founders of empirical science stipulated that experiments should be recorded with painstaking detail: 
 Francis Bacon and Robert Boyle ushered in a new era of carefully controlled and recorded experiments. 
 The laboratory notebook has remained an indispensable companion of researchers for a few hundred years, not much changed until recent adoption of computational alternatives. 
-``Good science requires good record keeping,'' according to the NIH guidelines (https://oir.nih.gov/sites/default/files/uploads/sourcebook/documents/ethical\_conduct/guidelines-scientific\_recordkeeping.pdf) 
+``Good science requires good record keeping,'' according to the NIH guidelines.\footnote{\url{https://oir.nih.gov/sites/default/files/uploads/sourcebook/documents/ethical_conduct/guidelines-scientific_recordkeeping.pdf} } 
 ``Good records are complete, accurate and understandable to others. 
 Records of research activities should be kept in sufficient detail to allow another scientist skilled in the art to repeat the work and obtain the same results.'' 
 What many researchers balking at cleaning and documenting their research code fail to discern is that this failure could impact their own ability to retrace their steps, were their results challenged by a peer. 
@@ -209,13 +209,13 @@ In my experience, after using code version control for some time, one grows to s
 lab policies, web pages, documentation, personal notes, internal reports, article drafts, etc. 
 The advantages are particularly apparent when more than one team member works on the same document or material: 
 who added or deleted what, and when, is automatically captured. 
-In a recent webinar for \emph{Nature} [7], I related our experience finding a small bug in the code that we used to generate all the results in a paper published recently. 
+In a recent webinar for \emph{Nature} \citep{perkel2001}, I related our experience finding a small bug in the code that we used to generate all the results in a paper published recently. 
 In fact, a collaborator's graduate student identified the bug in the process of learning about the method and following the code, thanks to it being openly available. 
 After our initial alarm, it took just just a few days to download our own reproducibility packages from archival repositories (Zenodo and Figshare) and re-run all the computational experiments, to arrive at sufficiently close results that the main findings were unaltered (to our relief!). 
 Having these detailed records and archives may have saved my team weeks or months of work trying to retrace the full workflow of the published work. 
 Like lab safety and security measures that seem like a burden of extra labor until they are \emph{really} needed, reproducible research practices are insurance for that moment when a problem surprises us. 
-I'm reminded of my favorite quote from Donoho et al. (2009): 
-``… if everyone on a research team knows that everything they do is going to someday be published for reproducibility, they’ll behave differently from day one. Striving for reproducibility imposes a discipline that leads to better work.'' [8]
+I'm reminded of my favorite quote from \cite{donoho2009}: 
+``… if everyone on a research team knows that everything they do is going to someday be published for reproducibility, they’ll behave differently from day one. Striving for reproducibility imposes a discipline that leads to better work.'' 
 
 \section*{Science is a conversation}
 \vspace{\up}
@@ -225,13 +225,13 @@ Scientific knowledge is created in conversations among scientists, and using an 
 In this sense, science \emph{is} a conversation. 
 Computational science places the computer as an agent in that conversation, and software is nothing more than the language (``code'') we use to interact with the machine and other researchers at the same time. 
 
-In the last fifteen years or so, the framework of \emph{Connectivism} (https://en.wikipedia.org/wiki/Connectivism) integrated theories of (human) learning with the new ways of interacting in the digital age. 
+In the last fifteen years or so, the framework of \emph{Connectivism}\footnote{\url{https://en.wikipedia.org/wiki/Connectivism}} integrated theories of (human) learning with the new ways of interacting in the digital age. 
 It defines connective knowledge as knowledge created and shared by an interacting community of individuals, or knowledge distributed across a network of connections. 
 Under this lens, science is the formation of connections: between concepts, artifacts, people, theories, actions, etc. 
 The role of the scientist is to be literate in this form of conversation, being able to traverse fluidly the network of connections and build the network further. 
 \emph{Openness} is a property of networks that make them more successful for learning, that is, developing shared knowledge---other such properties are connectivity, diversity, and autonomy. 
 Open sharing has a pedagogical purpose in this framework, as openness increases our capacity to create knowledge together. 
-Quoting co-founder of Connectivism, Stephen Downes (https://youtu.be/FPHYAFcUziA, 2007), talking about open education: 
+Quoting co-founder of Connectivism, Stephen Downes  2007),\footnote{\url{https://youtu.be/FPHYAFcUziA}} talking about open education: 
 ``Openness is about the possibilities of communicating with other people […] It’s not about \emph{stuff}, what you do with stuff. It’s about what you do with each other.'' 
 Openness promotes rich networks, lively communities, and fertile connections. 
 And this is good for science.
@@ -239,11 +239,11 @@ And this is good for science.
 Open-source software projects, and the culture of their communities, have thus more to offer than a scheme for securing freedom from copyright restrictions on shared code. 
 Open-source communities have developed templates for coordinating the actions of diverse groups of people, aimed at improving communication and working more effectively together. 
 The ethos of open-source culture favors open development, networked collaboration, community around open-source projects, and a value-based framework. 
-Gabriella Coleman [9] researched open-source culture from an anthropological point of view, and observed that open-source projects build organizations with strong commitments to freedom of access, transparency, and joint governance and decision-making. 
+Gabriella Coleman \citep{coleman2012} researched open-source culture from an anthropological point of view, and observed that open-source projects build organizations with strong commitments to freedom of access, transparency, and joint governance and decision-making. 
 In this setting is that open-source licenses were conceived, with the goal of enabling people to coordinate their work freely. 
 With web technology playing a key role in those coordinations, platforms like GitHub gave form to structured conversations, while teams adopted rituals of collaboration and associated language, enabling them to create value together through productive interactions.
 
-Thirty five years ago, Terry Winograd and Fernando Flores in their book \emph{Understanding Computers and Cognition} [10] talked about designing computer systems that can support humans to be more effective together. 
+Thirty five years ago, Terry Winograd and Fernando Flores in their book \emph{Understanding Computers and Cognition} \citep{winograd-flores1986} talked about designing computer systems that can support humans to be more effective together. 
 This was a groundbreaking textbook on system design, addressing how information technology could help improve human communication in organizations and in society. 
 A key observation is that the coordinated action of people or teams happens in the context of \emph{conversations}. 
 Language is not simply a vehicle for transmitting information about the world, but for changing the world: it has the dimension of acts and we invent the future via \emph{conversations for action}. 
@@ -269,12 +269,12 @@ Quoting Fernando Flores: ``When people coordinate successfully in [a conversatio
 \section*{Reproducibility is about trust}
 \vspace{\up}
 
-Reproducibility leaders Jeff Leek and Roger Peng wrote: ``To maintain the integrity of science research and the public’s trust in science, the scientific community must ensure reproducibility and replicability by engaging in a more preventative approach that greatly expands data analysis education and routinely uses software tools.'' [11] 
+Reproducibility leaders Jeff Leek and Roger Peng wrote: ``To maintain the integrity of science research and the public’s trust in science, the scientific community must ensure reproducibility and replicability by engaging in a more preventative approach that greatly expands data analysis education and routinely uses software tools.'' \citep{leek-peng2015} 
 Both scientific integrity and general trust in science are often linked with reproducibility. 
 At the same time, a crisis narrative often percolates through discussions during this period of escalating concern with reproducibility and replicability (the past twelve years or so). 
-Why? In part because the broad discussion was catalyzed by highly public fiascos, such as the failure to replicate research on genomic signatures of lung cancer, leading to the uncovering of misconduct by Anil Potti at Duke University (https://en.wikipedia.org/wiki/Anil\_Potti). 
+Why? In part because the broad discussion was catalyzed by highly public fiascos, such as the failure to replicate research on genomic signatures of lung cancer, leading to the uncovering of misconduct by Anil Potti at Duke University.\footnote{\url{https://en.wikipedia.org/wiki/Anil\_Potti}} 
 It is in these instances where trust breakdowns occur that we begin paying more sharp attention to trust-building activities. 
-Add in the rapid transition to computation and data becoming central to the scientific enterprise, and we have a credibility crisis, according to Donoho et al. [8] (and many others). 
+Add in the rapid transition to computation and data becoming central to the scientific enterprise, and we have a credibility crisis, according to \cite{donoho2009} (and many others). 
 Inaction would amount to ``blind trust'' or denial (self-deception), which is corrosive to integrity. 
 So we, the computational science community, have been debating what changes we need to make to our practice to increase trustworthiness. 
 We have thus focused on the traits of studies that can be called reproducible: they are published transparently, they share data and code, and they adopt good practices of data management and record-keeping. 
@@ -283,7 +283,7 @@ Should journals exercise the computational workflow, and confirm that the result
 Soon, we are facing monumental hurdles associated to the effort and cost of such implementation of reproducible research (especially in the context of large-scale or high-performance computing).
 
 But trustworthiness and trust are not the same thing. 
-Solomon \& Flores [12] (p.76 ff.) explain that trustworthiness is a trait that can be demonstrated, established with reasons and evidence. 
+\cite{solomon-flores2003} [p.76 ff.] explain that trustworthiness is a trait that can be demonstrated, established with reasons and evidence. 
 Trust, the act of trusting, hangs on the experience and frame of mind of the one who trusts, the other party in the equation. 
 Trust is dynamic and social: it is cultivated through commitment and action, through conversation. 
 For this reason, I do not believe it is possible to develop IT products that fully automate reproducibility, and offer a ``one-click solution.'' 
@@ -303,7 +303,8 @@ It reflects the change in culture we need for valuing software and data, and pub
 
 % ----------------------------------------------  REFERENCES 
 {\small
-%\bibliography{}
+\bibliography{./oss_in_rr}
+\bibliographystyle{jponew}
 }
 
 
