@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Brown et~al.(2021)Brown, Vahi, Taufer, Welch, and Deelman]{brown2021}
@@ -28,6 +28,11 @@ Donoho, D.~L., A.~Maleki, I.~U. Rahman, M.~Shahram, and V.~Stodden, 2009:
 \bibitem[Franklin(1989)]{franklin1989}
 Franklin, A., 1989: {\em The neglect of experiment\/}. Cambridge University
   Press, ISBN 0-521-37965-2.
+
+\bibitem[Hunter(2004)]{hunter2004}
+Hunter, J.~D., 2004: Why we should be using {BSD}. Neuroimaging in Python.
+  Online:
+  \url{http://nipy.sourceforge.net/nipy/stable/faq/johns_bsd_pitch.html}.
 
 \bibitem[Leek and Peng(2015)]{leek-peng2015}
 Leek, J.~T. and R.~D. Peng, 2015: Opinion: Reproducible research can still be
