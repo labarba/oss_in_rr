@@ -2,6 +2,8 @@
 
 % Author:  Lorena Barba
 
+\usepackage{tcolorbox}
+
 \usepackage{palatino}  
 \usepackage[T1]{fontenc}
 %\setromanfont[Mapping=tex-text,
@@ -154,6 +156,24 @@ It stipulates satisfaction of ten criteria, including not just availability of t
 And herein lies one of the reigning misconceptions about open source software: simply sharing the source code in a hosting service, code repository or website is not enough---one must attach a standard public license approved by the OSI for the software to be called open source. 
 Like with any creative work, copyright is automatically attached to computer code when it is written, and thus any source code posted online must be assumed ``All Rights Reserved'' by the copyright holder, unless it includes a license. 
 
+
+\begin{wrapfigure}{R}{0.5\textwidth}
+\vspace{-0.6cm}
+\begin{tcolorbox}[title=Copyleft vs. permissive OSS licenses, arc=0mm,,boxrule=0.5pt]
+\footnotesize \textsf{
+\emph{Copyleft} licenses require that any derivative works be under the same license of the original---also called ``share-alike.'' 
+Some developers want to ensure open access to their work and all derivatives for  posterity. 
+Although this may be considered virtuous in some circles, we should recognize that it is achieved by placing restrictions on the use of the software. 
+(A typical copyleft license is GPL.) 
+\emph{Permissive} licenses give more freedoms: the only restriction of use is usually that the original authors receive credit in any distribution of the software or any derivative works. 
+Even commercial uses, or incorporating the software into other proprietary (closed) works, is allowed. 
+Academic and research software benefits most from permissive licensing, enabling more impact and innovation. 
+Typical examples are the BSD License, the MIT License and the Apache License.
+In my research group, we use the BSD 3-clause license. It has a small difference in the wording about attribution compared to the MIT license, which uses the phrase ``substantial portions of the Software.'' Thus, a user could copy without attribution some of an MIT-licensed code (as long as the portion is deemed ``not substantial''). In research, we always prefer full attribution of any portions of reused works, and BSD 3-clause is more precise in this.}
+\end{tcolorbox}
+\end{wrapfigure}
+
+
 Open-source licenses are an invention of great impact, as an alternative to intellectual-property restrictions. 
 They allow people to coordinate their work freely, within the confines of copyright law, while making access and wide distribution their priority--this is fundamentally aligned with the norms of science, where we value academic freedom and wide dissemination of scientific findings. 
 The key benefit of OSI-approved licenses is that researchers do not need extensive legal training or consultants to navigate these issues: 
@@ -161,14 +181,6 @@ the licenses are ``pre-packaged'' and ready to use.
 A researcher needs to know the conditions of their employment contract (whether the copyright belongs to the author or the employer), and be familiar with some basic license terms, e.g., as presented by \cite{morin2012}. 
 With that information, they (or their employer) can choose one of the standard licenses for any particular software project. 
 Sometimes the choice may be tinged with a political position, for example, in the alternative between a copyleft or permissive license. 
-A \emph{copyleft} license requires that any derivative works be also under the license of the original---another word for this model is ``share-alike.'' 
-Some developers want to ensure open access to their work and all derivatives for  posterity. 
-Although this may be considered virtuous in some circles, we should recognize that it is achieved by placing restrictions on the use of the software. 
-(A typical copyleft license is GPL.) 
-A \emph{permissive} license gives more freedoms: the only restriction of use is usually that the original authors receive credit in any distribution of the software or any derivative works. 
-Even commercial uses, or incorporating the software into other proprietary (closed) works, is allowed. 
-Academic and research software benefits most from permissive licensing, enabling more impact and innovation. 
-Typical examples are the BSD License, the MIT License and the Apache License.\footnote{In my research group, we now opt for the BSD 3-clause license, after using MIT license for several years. They are very similar, but a small difference in the wording about attribution made us switch. BSD 3-clause says: ``Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.'' MIT license says: ``The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.'' This language implies that a user could copy some of an MIT-licensed code (as long as the portion is deemed ``not substantial'') without attribution. In academia, we always prefer full attribution of any portions of copied works, and BSD 3-clause is more precise in this.}
 
 From the legal perspective, open source is a licensing model, as described above. 
 When applied to research software, it contributes to transparency of the computational workflow and availability for others to use/modify/redistribute the software, one of the requisites of reproducibility. 
