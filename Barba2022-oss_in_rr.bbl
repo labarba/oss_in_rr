@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{17}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Brown et~al.(2021)Brown, Vahi, Taufer, Welch, and Deelman]{brown2021}
@@ -25,6 +25,10 @@ Donoho, D.~L., A.~Maleki, I.~U. Rahman, M.~Shahram, and V.~Stodden, 2009:
   Science \& Engineering\/}, {\bf 11(1)}, 8--18,
   \href{https://doi.org/10.1109/MCSE.2009.15}{doi:10.1109/MCSE.2009.15}.
 
+\bibitem[Downes(2017)]{downes2017}
+Downes, S., 2017: Open course 1. [Video] YouTube:
+  \url{https://youtu.be/FPHYAFcUziA}.
+
 \bibitem[Franklin(1989)]{franklin1989}
 Franklin, A., 1989: {\em The neglect of experiment\/}. Cambridge University
   Press, ISBN 0-521-37965-2.
@@ -46,6 +50,10 @@ LeVeque, R.~J. and V.~Mitchell, Ian M .and~Stodden, 2012: Reproducible research
   Computing in Science \& Engineering\/}, {\bf 14(4)}, 13--17,
   \href{https://doi.ieeecomputersociety.org/10.1109/MCSE.2012.38}{doi:10.1109/MCSE.2012.38}.
 
+\bibitem[McElreath(2020)]{mcelreath2020}
+McElreath, R., 2020: Science as amateur software development. [Video] YouTube:
+  \url{https://youtu.be/zwRdO9_GGhY}.
+
 \bibitem[Morin et~al.(2012)Morin, Urban, and Sliz]{morin2012}
 Morin, A., J.~Urban, and P.~Sliz, 2012: A quick guide to software licensing for
   the scientist-programmer. {\em PLOS Computational Biology\/}, {\bf 8(7)},
@@ -57,6 +65,11 @@ Morin, A., J.~Urban, and P.~Sliz, 2012: A quick guide to software licensing for
   Reproducibility and {Replicability} in {Science}\/}. National Academies
   Press, Washington, D.C., ISBN 978-0-309-48616-3,
   \href{https://doi.org/c5jp}{doi:c5jp}.
+
+\bibitem[NIH(2008)]{nih2008guidelines}
+NIH, U., 2008: Guidelines for scientific record keeping in the intramural
+  research program at the {NIH}. Online:
+  \url{https://oir.nih.gov/sites/default/files/uploads/sourcebook/documents/ethical_conduct/guidelines-scientific_recordkeeping.pdf}.
 
 \bibitem[Perkel(2021)]{perkel2001}
 Perkel, J., 2021: How to make your research reproducible. \emph{Nature} Career
